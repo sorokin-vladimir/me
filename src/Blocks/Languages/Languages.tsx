@@ -1,4 +1,4 @@
-import { SectionTitle } from "@/UI";
+import { SectionTitle, Text } from "@/UI";
 
 export function Languages() {
   return (
@@ -6,13 +6,13 @@ export function Languages() {
       <SectionTitle>
         Languages
       </SectionTitle>
-      <div className="font-bold text-lg">English</div>
+      <Text variant="subtitle">English</Text>
       <div className="italic font-semibold text-slate-800 text-xs">
         Professional working proficiency
         <span className="non-italic text-slate-600 ml-2">(B1-B2)</span>
       </div>
 
-      <div className="font-bold text-lg mt-3">Russian</div>
+      <Text variant="subtitle" className="mt-3">Russian</Text>
       <div className="italic font-semibold text-slate-800 text-xs">
         Native proficiency
       </div>

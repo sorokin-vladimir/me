@@ -1,4 +1,4 @@
-import { SectionTitle } from "@/UI";
+import { SectionTitle, Text } from "@/UI";
 
 export function Education() {
   return (
@@ -6,12 +6,12 @@ export function Education() {
       <SectionTitle>
         Education
       </SectionTitle>
-      <div className="font-bold text-lg">Automation of technological processes in engineering</div>
+      <Text variant="subtitle">Automation of technological processes in engineering</Text>
       <div className="flex">
-        <div className="italic font-semibold text-slate-800 text-xs">Moscow State Industrial University (MSIU)</div>
-        <div className="ml-2 text-slate-600 text-xs">[2005-2010]</div>
+        <Text variant="smallSubtitle">Moscow State Industrial University (MSIU)</Text>
+        <Text variant="smallDate" className="ml-2">[2005-2010]</Text>
       </div>
-      <div className="mt-1 text-xs">Automation of production lines, programming of industrial robots and microcontrollers</div>
+      <Text className="mt-1">Automation of production lines, programming of industrial robots and microcontrollers</Text>
     </article>
   );
 }

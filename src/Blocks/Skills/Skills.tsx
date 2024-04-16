@@ -1,4 +1,4 @@
-import { SectionTitle } from '@/UI';
+import { SectionTitle, Text } from '@/UI';
 import data from './data.json';
 
 export function Skills() {
@@ -7,7 +7,7 @@ export function Skills() {
       <SectionTitle>
         Skills
       </SectionTitle>
-      <div className='text-xs'>
+      <Text>
         {data.main.map(skill => <span key={skill}> {skill}, </span>)}
         {data.fetch_state.map(skill => <span key={skill}> {skill}, </span>)}
         {data.test.map(skill => <span key={skill}> {skill}, </span>)}
@@ -16,7 +16,7 @@ export function Skills() {
           {' '}{skill}
           {data.additional.length + 1 === idx ? '' : ', '}
           </span>)}
-      </div>
+      </Text>
     </article>
   );
 }

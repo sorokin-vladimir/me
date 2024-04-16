@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from "react"
-import { Years } from "..";
+import { Text, Years } from "..";
 
 type Props = PropsWithChildren<{
   role: string;
@@ -26,14 +26,14 @@ export const Work: FC<Props> = ({
 
   return (
     <section className={className || ''}>
-      <div className="font-bold text-lg">
+      <Text variant="subtitle">
         {role}
         <span className="ml-2 font-normal text-base"><Years year={dateStart} yearStart={dateEnd} /></span>
-      </div>
+      </Text>
       <div className="flex">
-        <div className="italic font-semibold text-slate-800 text-sm">{company}</div>
-        <div className="ml-2 text-slate-800 text-sm">{country}</div>
-        <div className="ml-2 text-slate-600 text-sm">
+        <Text variant="smallSubtitle">{company}</Text>
+        <Text variant="smallSubtitle" className="ml-2 not-italic font-normal">{country}</Text>
+        <Text variant="smallDate" className="ml-2">
           [{
             date1.toLocaleString('GB-en', { month: 'short' })
           } {
@@ -43,10 +43,10 @@ export const Work: FC<Props> = ({
           } {
             date2.getFullYear()
           }]
-        </div>
+        </Text>
       </div>
-      <div className="whitespace-pre-line text-xs">{children}</div>
-      <div className="mt-1 text-slate-600 text-sm"><span className="italic">Tech stack:</span> {stack}</div>
+      <Text className="whitespace-pre-line">{children}</Text>
+      <Text variant="smallDate" className="mt-1"><span className="italic">Tech stack:</span> {stack}</Text>
     </section>
   )
 }
