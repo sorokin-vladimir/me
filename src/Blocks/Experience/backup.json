@@ -1,0 +1,41 @@
+{
+  "juro": [
+    {
+      "role": "Senior Frontend Engineer",
+      "company": "Juro",
+      "country": "Latvia",
+      "dateStart": "02 February 2021",
+      "dateEnd": "17 October 2023",
+      "stack": "React, TypeScript",
+      "description": {
+        "common": "The most interesting challenges:",
+        "achievements": [
+          "Refactoring legacy code (replacing the UI-Router (Angular) with React-Router v6). Developed a transition plan and its implementation. Was unable to complete it due to being laid off",
+          "Conducted a major update of Material-UI, performing extensive style overwriting to align it with the design system",
+          "Implemented self-service payment systems with interface restrictions for different plans",
+          "Performance optimization, including the use of profilers and developer tools",
+          "Prepared a workshop for colleagues on effective work with React + MobX",
+          "Conducted technical interviews",
+          "Mentored less experienced colleagues"
+        ]
+      }
+    },
+    {
+      "role": "Frontend Engineer",
+      "company": "Juro",
+      "country": "Latvia",
+      "dateStart": "16 February 2020",
+      "dateEnd": "02 February 2021",
+      "stack": "React, TypeScript",
+      "description": {
+        "common": "The most interesting challenges:",
+        "achievements": [
+          "Implemented and started using E2E tests (Playwright)",
+          "Improved performance through optimization of work with MobX",
+          "Standardized the codebase through automation of usage ESLint and Prettier",
+          "Implemented a toolkit for easy addition and updating of tours in the application"
+        ]
+      }
+    }
+  ]
+}

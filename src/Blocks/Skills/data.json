@@ -1,0 +1,27 @@
+{
+  "main": [
+    "React",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "basic": [
+    "Git",
+    "HTML",
+    "CSS/SASS"
+  ],
+  "fetch_state": [
+    "MobX",
+    "Redux",
+    "WebSockets",
+    "React Query",
+    "GraphQL",
+    "Apollo Client"
+  ],
+  "test": [
+    "Playwright",
+    "Jest"
+  ],
+  "additional": [
+    "Node.js"
+  ]
+}
