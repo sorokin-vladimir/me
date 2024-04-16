@@ -6,9 +6,9 @@ export function AboutMe() {
       <SectionTitle>
         About Me
       </SectionTitle>
-      <span>
+      <div className="text-xs">
         More than 7 years of experience in Frontend development. Worked with React, MobX & Redux, WebSockets, GraphQL. Started my career at amoCRM as a Frontend Developer, and in my latest role at Juro, I progressed to Team Lead & Senior Frontend Engineer, leading a team of 5 people, developing new features, and conducting extensive refactoring.
-      </span>
+      </div>
     </article>
   )
 }

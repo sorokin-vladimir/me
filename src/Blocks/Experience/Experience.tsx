@@ -3,7 +3,7 @@ import data from './data.json';
 import { IconPointFilled } from "@tabler/icons-react";
 
 export function Experience() {
-  const dotClass = 'w-1.5 h-1.5 min-w-1.5 min-h-1.5 max-w-1.5 max-h-1.5 rounded-full bg-slate-600 mr-2 mt-2.5';
+  const dotClass = 'w-1 h-1 min-w-1 min-h-1 max-w-1 max-h-1 rounded-full bg-slate-600 mr-2 mt-1.5';
 
   return (
     <article className="w-full">
@@ -20,7 +20,7 @@ export function Experience() {
             dateStart={work.dateStart}
             dateEnd={work.dateEnd}
             stack={work.stack}
-            className={data.experience.length - 1 === idx ? '' : 'mb-4'}
+            className={data.experience.length - 1 === idx ? '' : 'mb-2'}
           >
             {work.description.common}
             {work.description.responsibilities && work.description.responsibilities.map((responsibility, idx) => (

@@ -10,20 +10,20 @@
       "description": {
         "common": "Juro is a London-based startup funded by venture capital firms such as Eight Roads, Union Square Ventures, Point Nine Capital, Seedcamp, and Taavet Hinrikus.\nThe most interesting challenges as Senior Frontend Engineer:",
         "responsibilities": [
-          "Refactoring legacy code (replacing the UI-Router (Angular) with React-Router v6). Developed a transition plan and its implementation. Was unable to complete it due to being laid off",
-          "Conducted a major update of Material-UI, performing extensive style overwriting to align it with the design system",
-          "Implemented self-service payment systems with interface restrictions for different plans",
-          "Performance optimization, including the use of profilers and developer tools",
-          "Prepared a workshop for colleagues on effective work with React + MobX",
-          "Conducted technical interviews",
-          "Mentored less experienced colleagues"
+          "Refactoring legacy code (replacing the UI-Router (Angular) with React-Router v6). Developed a transition plan and its implementation;",
+          "Led a development team of 5 people;",
+          "Participated in the hiring process for engineers, conducted technical interviews;",
+          "Implemented self-service payment systems with interface restrictions for different plans;",
+          "Performance optimization, including the use of profilers and developer tools;",
+          "Prepared and conducted a workshop for colleagues on effective work with React + MobX;",
+          "Mentored less experienced colleagues;"
         ],
         "common2": "The most interesting challenges as Frontend Engineer:",
         "achievements": [
-          "Implemented and started using E2E tests (Playwright)",
-          "Improved performance through optimization of work with MobX",
-          "Standardized the codebase through automation of usage ESLint and Prettier",
-          "Implemented a toolkit for easy addition and updating of tours in the application"
+          "Implemented and started using E2E tests (Playwright);",
+          "Improved performance through optimization of work with MobX;",
+          "Standardized the codebase through automation of usage ESLint and Prettier;",
+          "Implemented a toolkit for easy addition and updating of tours in the application;"
         ]
       }
     },
@@ -33,20 +33,19 @@
       "country": "Russia",
       "dateStart": "02 December 2018",
       "dateEnd": "15 January 2020",
-      "stack": "React, Redux, WebSockets, GraphQL, Apollo Client",
+      "stack": "React, Redux, WebSockets, GraphQL, Apollo Client, React Native",
       "description": {
         "common": "Participated in the development of a big and complicated project (startup). Company's main product was e-document management system: catalogue with complicated filters, full-text editor, visualisation of logic on Canvas, great performance attention.\nMy area of responsibility was:",
         "responsibilities": [
-          "Leading the mobile team",
-          "Hiring",
-          "Development the main (web) application",
-          "Development mobile application (React Native)",
-          "Mentoring (company started a course of JavaScript in terms of HR-activities)"
+          "Led the mobile development team;",
+          "Hired people for the team;",
+          "Created and delivered a JavaScript (FE) course (in terms of HR-activities);",
+          "Development the main (web) and mobile (React Native) applications;"
         ],
         "common2": "The most interesting challenges:",
         "achievements": [
-          "In-house implementation of i18n, pluralization and formatting of dates/currencies/numbers system",
-          "System for page formatting (JSON-like structure which was being formatted in A3, A4, A5 pages with continue styles between pages). Required for text editor"
+          "In-house implementation of i18n, pluralization and formatting of dates/currencies/numbers;",
+          "System for page formatting (JSON-like structure which was being formatted in A3, A4, A5 pages with continue styles between pages). Required for text editor;"
         ]
       }
     },
@@ -60,9 +59,9 @@
       "description": {
         "common": "Developed a communication platform for manufacturers and small retailers, improving industry-wide collaboration.\nMy area of responsibility was:",
         "achievements": [
-          "Led the selection of tools and technologies for project development",
-          "Translated mockups into user-friendly interfaces, ensuring seamless user experiences",
-          "Collaborated closely with backend developers and designers to integrate APIs and deliver optimal functionality"
+          "Led the selection of tools and technologies for project development;",
+          "Translated mockups into user-friendly interfaces, ensuring seamless user experiences;",
+          "Collaborated closely with backend developers and designers;"
         ]
       }
     },
@@ -76,11 +75,11 @@
       "description": {
         "common": "My area of responsibility was:",
         "achievements": [
-          "Led the development of an automatisation system for a governmental institution, encompassing climate and lightning control indoors, real-time staff tracking, and helpdesk support",
-          "Responsible for selecting appropriate tools and technologies to ensure optimal performance",
-          "Translated mockups and specifications provided by analysts into a user-friendly interface",
-          "Collaborated with backend developers to design and implement efficient APIs",
-          "Successfully delivered a fully functional product to the customer"
+          "Led the development of an automatisation system for a governmental institution;",
+          "Responsible for selecting appropriate tools and technologies;",
+          "Translated mockups and specifications provided by analysts into a user-friendly interface;",
+          "Collaborated with backend developers to design and implement efficient APIs;",
+          "Successfully delivered a fully functional product to the customer;"
         ]
       }
     },

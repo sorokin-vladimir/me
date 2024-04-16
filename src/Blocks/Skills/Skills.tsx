@@ -7,12 +7,15 @@ export function Skills() {
       <SectionTitle>
         Skills
       </SectionTitle>
-      <div>
+      <div className='text-xs'>
         {data.main.map(skill => <span key={skill}> {skill}, </span>)}
         {data.fetch_state.map(skill => <span key={skill}> {skill}, </span>)}
         {data.test.map(skill => <span key={skill}> {skill}, </span>)}
         {data.basic.map(skill => <span key={skill}> {skill}, </span>)}
-        {data.additional.map(skill => <span key={skill}> {skill}</span>)}
+        {data.additional.map((skill, idx) => <span key={skill}>
+          {' '}{skill}
+          {data.additional.length + 1 === idx ? '' : ', '}
+          </span>)}
       </div>
     </article>
   );

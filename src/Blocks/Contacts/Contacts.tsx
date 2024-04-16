@@ -13,29 +13,29 @@ export function Contacts() {
           <div className="text-xl mb-4">
             {data.position}
           </div>
-          <Field icon={<IconCake />} className='mb-1'>
+          <Field icon={<IconCake size={18} />} className='mb-1 text-sm'>
             {data.birth}
             <Years year={'07 April 1989'} className='ml-2' />
           </Field>
-          <div className="flex mb-1">
-            <Field icon={<IconDeviceMobile />} className='mr-6'>
+          <div className="flex mb-1 text-sm">
+            <Field icon={<IconDeviceMobile size={18} />} className='mr-6'>
               {process.env.phone}
             </Field>
-            <Field icon={<IconMail />}>
+            <Field icon={<IconMail size={20} />}>
               {process.env.email}
             </Field>
           </div>
-          <Field icon={<IconBrandLinkedin />} className='mb-1'>
+          <Field icon={<IconBrandLinkedin size={18} />} className='mb-1 text-sm'>
             <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
               {data.linkedin}
             </a>
           </Field>
-          <Field icon={<IconBrandGithub />} className='mb-1'>
+          <Field icon={<IconBrandGithub size={18} />} className='mb-1 text-sm'>
             <a href={data.github} target="_blank" rel="noopener noreferrer">
               {data.github}
             </a>
           </Field>
-          <Field icon={<IconMap2 />}>
+          <Field icon={<IconMap2 size={18} />} className='text-sm'>
             {data.current_location}
           </Field>
         </div>

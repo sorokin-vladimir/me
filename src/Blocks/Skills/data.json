@@ -22,6 +22,8 @@
     "Jest"
   ],
   "additional": [
+    "ProseMirror",
+    "React Native",
     "Node.js"
   ]
 }

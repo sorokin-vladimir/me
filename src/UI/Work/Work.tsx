@@ -26,11 +26,14 @@ export const Work: FC<Props> = ({
 
   return (
     <section className={className || ''}>
-      <div className="font-bold text-lg">{role}</div>
+      <div className="font-bold text-lg">
+        {role}
+        <span className="ml-2 font-normal text-base"><Years year={dateStart} yearStart={dateEnd} /></span>
+      </div>
       <div className="flex">
-        <div className="italic font-semibold text-slate-800">{company}</div>
-        <div className="ml-2 text-slate-800">{country}</div>
-        <div className="ml-2 text-slate-600">
+        <div className="italic font-semibold text-slate-800 text-sm">{company}</div>
+        <div className="ml-2 text-slate-800 text-sm">{country}</div>
+        <div className="ml-2 text-slate-600 text-sm">
           [{
             date1.toLocaleString('GB-en', { month: 'short' })
           } {
@@ -39,11 +42,11 @@ export const Work: FC<Props> = ({
             date2.toLocaleString('GB-en', { month: 'short' })
           } {
             date2.getFullYear()
-          }] <Years year={dateStart} yearStart={dateEnd} />
+          }]
         </div>
       </div>
-      <div className="whitespace-pre-line">{children}</div>
-      <div className="mt-1"><span className="italic">Tech stack:</span> {stack}</div>
+      <div className="whitespace-pre-line text-xs">{children}</div>
+      <div className="mt-1 text-slate-600 text-sm"><span className="italic">Tech stack:</span> {stack}</div>
     </section>
   )
 }
