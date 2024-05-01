@@ -7,11 +7,14 @@
   "basic": [
     "Git",
     "HTML",
-    "CSS/SASS"
+    "CSS/SASS",
+    "Tailwind"
   ],
   "fetch_state": [
     "MobX",
     "Redux",
+    "Zustand",
+    "Nanostores",
     "WebSockets",
     "React Query",
     "GraphQL",
@@ -19,11 +22,15 @@
   ],
   "test": [
     "Playwright",
-    "Jest"
+    "Jest",
+    "React Testing Library"
   ],
   "additional": [
     "ProseMirror",
     "React Native",
-    "Node.js"
+    "Node.js",
+    "Webpack",
+    "Vite",
+    "Docker"
   ]
 }

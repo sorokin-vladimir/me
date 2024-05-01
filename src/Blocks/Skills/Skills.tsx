@@ -14,7 +14,7 @@ export function Skills() {
         {data.basic.map(skill => <span key={skill}> {skill}, </span>)}
         {data.additional.map((skill, idx) => <span key={skill}>
           {' '}{skill}
-          {data.additional.length + 1 === idx ? '' : ', '}
+          {data.additional.length - 1 === idx ? '' : ', '}
           </span>)}
       </Text>
     </article>
