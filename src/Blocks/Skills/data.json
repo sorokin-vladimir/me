@@ -27,6 +27,7 @@
   ],
   "additional": [
     "ProseMirror",
+    "Svelte",
     "React Native",
     "Node.js",
     "Webpack",
