@@ -20,7 +20,7 @@ export function Experience() {
             dateStart={work.dateStart}
             dateEnd={work.dateEnd}
             stack={work.stack}
-            className={data.experience.length - 1 === idx ? '' : 'mb-2'}
+            className={data.experience.length - 1 === idx ? '' : 'mb-1.5'}
           >
             {work.description.common}
             {work.description.responsibilities && work.description.responsibilities.map((responsibility, idx) => (

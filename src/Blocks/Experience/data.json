@@ -2,6 +2,22 @@
   "experience": [
     {
       "role": "Senior Frontend Engineer",
+      "company": "T.I.N.T.",
+      "country": "Latvia",
+      "dateStart": "1 November 2023",
+      "dateEnd": "21 March 2024",
+      "stack": "React, TypeScript, Tailwind, Zustand, GraphQL, Apollo Client, WebSockets, ProseMirror, Universal router, Nest, Vite",
+      "description": {
+        "common": "TINT is personalized assistant based on AI, with your personal context. The product had not yet been publicly released when I left the company.\nMy area of responsibility:",
+        "achievements": [
+          "Building frontend architecture from scratch;",
+          "Selecting technologies and specific libraries;",
+          "Implementing a full-fledged text editor (based onProseMirror);"
+        ]
+      }
+    },
+    {
+      "role": "Senior Frontend Engineer",
       "company": "Juro",
       "country": "Latvia",
       "dateStart": "16 February 2020",
