@@ -21,8 +21,8 @@ export const Work: FC<Props> = ({
   children,
   className
 }) => {
-  const date1 = (new Date(dateStart))
-  const date2 = (new Date(dateEnd))
+  const date1 = (new Date(dateStart));
+  const date2 = dateEnd ? (new Date(dateEnd)) : null;
 
   return (
     <section className={className || ''}>
@@ -39,10 +39,16 @@ export const Work: FC<Props> = ({
           } {
             date1.getFullYear()
           } - {
-            date2.toLocaleString('GB-en', { month: 'short' })
-          } {
-            date2.getFullYear()
-          }]
+            date2 === null ?
+            'till now' :
+              <>
+                {
+                  (date2 as Date).toLocaleString('GB-en', { month: 'short' })
+                } {
+                  (date2 as Date).getFullYear()
+                }
+              </>
+            }]
         </Text>
       </div>
       <Text className="whitespace-pre-line">{children}</Text>

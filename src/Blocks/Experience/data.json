@@ -1,6 +1,21 @@
 {
   "experience": [
     {
+      "role": "Senior Frontend Developer",
+      "company": "Evolution",
+      "country": "Latvia",
+      "dateStart": "15 July 2024",
+      "dateEnd": "",
+      "stack": "React, TypeScript, MobX, Canvas, PixiJS, Jest",
+      "description": {
+        "common": "Evolution is a leading global provider of B2B services for online casinos, partnering with top operators worldwide. The company develops innovative gaming products and platforms, including live casinos, game shows, and slots, delivering the highest quality user experience for players.\nMy area of responsibility:",
+        "achievements": [
+          "Create games from the scratch, based on React+Canvas;",
+          "Fix issues and bugs in existing games;"
+        ]
+      }
+    },
+    {
       "role": "Senior Frontend Engineer",
       "company": "T.I.N.T.",
       "country": "Latvia",
